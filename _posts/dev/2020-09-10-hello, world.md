@@ -8,4 +8,4 @@ permalink: dev/hello-world/
 
 some content
 
-![My helpful screenshot](/assets/img/one.jpeg)
+![screenshot](./assets/img/one.jpeg)
