@@ -8,4 +8,4 @@ permalink: dev/hello-world/
 
 some content
 
-![screenshot](/assets/img/one.jpeg)
+![screenshot](https://kazumawada.github.io/blog/assets/img/one.jpeg)
