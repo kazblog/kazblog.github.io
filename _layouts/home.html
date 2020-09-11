@@ -22,31 +22,30 @@ layout: default
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
 
-
-
-
-
-   
+  <br>
+   <div class="container">
+     <div class="row">
+       <!-- <div class="col-md-8 offset-md-2"> -->
+        <!-- <div class="col-md-10 offset-md-1"> -->
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
       <li>
-        <br>
-        <h5>
-          <a class="post-link" href="{{ post.url | relative_url }}">
+        <a class="post-link" href="{{ post.url | relative_url }}">
+        <h2>
+          <!-- <a class="post-link" href="{{ post.url | relative_url }}"> -->
             {{ post.title | escape }}
-          </a>
-        </h5>
-        <p class="post-meta">{{ post.excerpt }}</p> 
-        <!-- {%- if site.show_excerpts -%} -->
-        <!-- {%- endif -%}  -->
+          <!-- </a> -->
+        </h2>
+        <span class="post-meta-meta">{{ post.excerpt }}</span> 
         <span class="post-meta">{{ post.date | date: date_format }}</span> 
+      </a>
       </li> 
       {%- endfor -%}
-     
     </ul>
 
-
+<!-- </div> -->
+</div></div>
 
 
 

@@ -34,6 +34,7 @@ github_username:  kazumawada
 theme: minima
 plugins:
   - jekyll-feed
+  # - jekyll-gallery-generator
 # ↑ここに画像入れるプラグインやってるのかな？
 
 # defaults:
