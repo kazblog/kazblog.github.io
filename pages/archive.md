@@ -13,8 +13,7 @@ permalink: /archive/
 {% for post in site.categories.blog %}
 <a href="{{post.url}}">{{post.title}}</a>
 {% endfor %}
-
-
+-------------------------------
 {% for post in site.posts %}
 <a href="{{post.url}}">{{post.title}}</a>
 {% endfor %}
