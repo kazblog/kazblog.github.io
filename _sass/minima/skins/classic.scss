@@ -36,6 +36,7 @@ $table-border-color:    $border-color-01 !default;
 // ----------------------------------------------------------------------------
 
 .highlight {
+  .n     { color: #2cb696} //$link-note-color:      #2cb696;
   .c     { color: #998; font-style: italic } // Comment
   .err   { color: #a61717; background-color: #e3d2d2 } // Error
   .k     { font-weight: bold } // Keyword
