@@ -16,3 +16,11 @@ You can find the source code for Jekyll at GitHub:
 
 
 [jekyll-organization]: https://github.com/jekyll
+
+
+転職活動を始める時にどの程度できているのか自分で決める今。
+<br>
+外部APIを実装したニュースサイト(主にDigital Nomadについて)のアプリケーションを、Docker、AWSを用いて開発する。ajaxは、header, footerは対象外の設定。
+<br>
+12月31日まで。
+<br>
