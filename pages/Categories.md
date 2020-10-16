@@ -9,10 +9,10 @@ permalink: /Categories/
 <a href="{{post.url}}">{{post.title}}</a>
 {% endfor %}
 <br>
-<h2>Dev</h2>
+<!-- <h2>Dev</h2>
 {% for post in site.categories.dev %}
 <a href="{{post.url}}">{{post.title}}</a>
-{% endfor %}
+{% endfor %} -->
 <br>
 <h2>Blog</h2>
 {% for post in site.categories.blog %}
