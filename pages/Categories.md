@@ -17,6 +17,20 @@ permalink: /Categories/
 {% endfor %}
 <br>
 
+<br>
+<h2>Vue</h2>
+{% for post in site.categories.Vue %}
+<a href="{{post.url}}">{{post.title}}</a>
+{% endfor %}
+<br>
+
+<br>
+<h2>Docker</h2>
+{% for post in site.categories.Docker %}
+<a href="{{post.url}}">{{post.title}}</a>
+{% endfor %}
+<br>
+
 <!-- <h2>Dev</h2>
 {% for post in site.categories.dev %}
 <a href="{{post.url}}">{{post.title}}</a>
