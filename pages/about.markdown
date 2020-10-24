@@ -18,7 +18,7 @@ You can find the source code for Jekyll at GitHub:
 [jekyll-organization]: https://github.com/jekyll
 
  -->
-[Github](https://kazumawada.github.io)
- [twitter](https://kazumawada.github.io)
- [Qiita](https://kazumawada.github.io)
+[Github](https://github.com/kazumawada/)
+[Qiita](https://qiita.com/kazumawada)
+[EngBlog]( https://kaz08.blogspot.com/)
 
