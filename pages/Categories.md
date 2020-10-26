@@ -4,6 +4,12 @@ title: Categories
 permalink: /Categories/
 ---
 <br>
+<h3>Portfolio</h3>
+{% for post in site.categories.Portfolio %}
+<a href="{{post.url}}">{{post.title}}</a>
+{% endfor %}
+<br>
+<br>
 <h3>Rails</h3>
 {% for post in site.categories.Rails %}
 <a href="{{post.url}}">{{post.title}}</a>
