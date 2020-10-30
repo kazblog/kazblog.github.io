@@ -4,8 +4,8 @@ title: Categories
 permalink: /Categories/
 ---
 <br>
-<h3>Portfolio</h3>
-{% for post in site.categories.Portfolio %}
+<h3>Built-environment</h3>
+{% for post in site.categories.Built-environment %}
 <a href="{{post.url}}">{{post.title}}</a>
 {% endfor %}
 <br>
@@ -31,11 +31,7 @@ permalink: /Categories/
 <br>
 
 <br>
-<h3>Docker</h3>
-{% for post in site.categories.Docker %}
-<a href="{{post.url}}">{{post.title}}</a>
-{% endfor %}
-<br>
+
 
 <!-- <h2>Dev</h2>
 {% for post in site.categories.dev %}
