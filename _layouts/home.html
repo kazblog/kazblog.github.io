@@ -33,13 +33,14 @@ layout: default
       <li>
         <!-- <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}"> -->
         <a class="post-link" href="{{ post.url | relative_url }}">
-        <h3>
+        <h1>
             {{ post.title | escape }}
-        </h3>
+        </h1>
         <span class="post-meta-meta">{{ post.excerpt }}</span>
         <span class="post-meta">{{ post.date | date: date_format }} /</span> 
         <span class="post-meta">{{ post.categories | date: date_format }}</span>
        </a>
+       <br><br><br><br><br>
       </li> 
       {%- endfor -%}
     </ul>
