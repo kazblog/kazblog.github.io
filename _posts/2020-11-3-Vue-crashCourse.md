@@ -1,11 +1,13 @@
 ---
 layout: post
-title: ""
+title: "VueCliでtodoリストを作る01"
 date: 2020-11-3 12:39:36 +0900
-categories: vue-cli-todos-01
+categories: Vue
 permalink: /vueCli-todo01
 excerpt_separator: <!--more-->
 ---
+
+<!--more-->
 
 ## VueCliを使う前の準備
 nodeのインストール
