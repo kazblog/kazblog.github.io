@@ -3,18 +3,8 @@ layout: page
 title: Categories
 permalink: /Categories/
 ---
-<br>
-<h3>Built-environment</h3>
-{% for post in site.categories.Built-environment %}
-<ul>
-<li><a href="{{post.url}}">{{post.title}}</a></li>
-</ul>
-{% endfor %}
-<br>
-<br>
 
-
-<h3>Rails</h3>
+<h3>Railsに関する記事</h3>
 {% for post in site.categories.Rails %}
 <ul>
 <li><a href="{{post.url}}">{{post.title}}</a></li>
@@ -23,7 +13,7 @@ permalink: /Categories/
 <br>
 
 <br>
-<h3>JavaScript</h3>
+<h3>JavaScriptに関する記事</h3>
 {% for post in site.categories.JavaScript %}
 <ul>
 <li><a href="{{post.url}}">{{post.title}}</a></li>
@@ -32,7 +22,7 @@ permalink: /Categories/
 <br>
 
 <br>
-<h3>Vue</h3>
+<h3>Vueに関する記事</h3>
 {% for post in site.categories.Vue %}
 <ul>
 <li><a href="{{post.url}}">{{post.title}}</a></li>
@@ -40,6 +30,16 @@ permalink: /Categories/
 {% endfor %}
 <br>
 
+<br>
+
+<br>
+<h3>環境構築に関する記事</h3>
+{% for post in site.categories.Built-environment %}
+<ul>
+<li><a href="{{post.url}}">{{post.title}}</a></li>
+</ul>
+{% endfor %}
+<br>
 <br>
 
 
