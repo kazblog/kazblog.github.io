@@ -2,7 +2,7 @@
 layout: post
 title: "Vuetify導入に丸一日かかった。そのプロセス。"
 date: 2020-11-4 12:39:36 +0900
-categories: vue
+categories: Vue
 permalink: /vuetyfy-dawnroad
 excerpt_separator: <!--more-->
 ---
