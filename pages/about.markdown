@@ -20,5 +20,5 @@ You can find the source code for Jekyll at GitHub:
  -->
 [Github](https://github.com/kazumawada/)
 [Qiita](https://qiita.com/kazumawada)
-[EngBlog]( https://kaz08.blogspot.com/)
+
 
