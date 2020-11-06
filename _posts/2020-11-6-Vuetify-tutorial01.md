@@ -7,6 +7,7 @@ permalink: /vuetyfy-cheet-sheat
 excerpt_separator: <!--more-->
 ---
 
+vuetifyのgrid,menu,padding,margin,typography
 <!--more-->
 
 ## vuetifyチートシート
