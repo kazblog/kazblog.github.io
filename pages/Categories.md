@@ -4,6 +4,16 @@ title: Categories
 permalink: /Categories/
 ---
 
+<h3>チートシート</h3>
+{% for post in site.categories.Cheat %}
+<ul>
+<li><a href="{{post.url}}">{{post.title}}</a></li>
+</ul>
+{% endfor %}
+<br>
+<br>
+
+
 <h3>Railsに関する記事</h3>
 {% for post in site.categories.Rails %}
 <ul>
