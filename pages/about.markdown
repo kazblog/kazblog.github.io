@@ -18,7 +18,6 @@ You can find the source code for Jekyll at GitHub:
 [jekyll-organization]: https://github.com/jekyll
 
  -->
- エンジニアにとってチートシートを作っておくことが効率的だなと思ったので、このブログがあります。
  <br>
 [Github](https://github.com/kazumawada/)
 [Qiita](https://qiita.com/kazumawada)
