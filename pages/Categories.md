@@ -4,7 +4,7 @@ title: Categories
 permalink: /Categories/
 ---
 
-<h3>チートシート</h3>
+<!-- <h3>チートシート</h3>
 {% for post in site.categories.Cheat %}
 <ul>
 <li><a href="{{post.url}}">{{post.title}}</a></li>
@@ -50,7 +50,7 @@ permalink: /Categories/
 </ul>
 {% endfor %}
 <br>
-<br>
+<br> -->
 
 
 

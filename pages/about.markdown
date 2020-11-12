@@ -19,7 +19,13 @@ You can find the source code for Jekyll at GitHub:
 
  -->
  <br>
-[Github](https://github.com/kazumawada/)
-[Qiita](https://qiita.com/kazumawada)
+
+・[GitHubPages](https://kazumawada.github.io/)<br>←一週間ごとの活動報告
+ 
+・[Github](https://github.com/kazumawada/)<br>
+
+・[Qiita](https://qiita.com/kazumawada)<br>
+
+・[blog](https://kazumawada-weekly-update.blogspot.com/)<br>←読んだ記事のアウトプット/英語学習用です。
 
 
