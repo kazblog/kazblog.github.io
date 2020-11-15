@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "weekly update 11/15"
+title:  "Weekly Update, November 15th"
 date:   2020-11-15 12:39:36 +0900
 categories: weeklyUpdate
 permalink: /process-of-my-first-project
