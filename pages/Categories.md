@@ -4,6 +4,18 @@ title: Categories
 permalink: /Categories/
 ---
 
+
+
+ <h3>weeklyUpdateに関する記事</h3>
+{% for post in site.categories.weeklyUpdate %}
+<ul>
+<li><a href="{{post.url}}">{{post.title}}</a></li>
+</ul>
+{% endfor %}
+<br>
+<br>
+
+
 <!-- <h3>チートシート</h3>
 {% for post in site.categories.Cheat %}
 <ul>
