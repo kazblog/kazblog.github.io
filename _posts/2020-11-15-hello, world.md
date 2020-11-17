@@ -18,8 +18,7 @@ excerpt_separator: <!--more-->
 
 ・rails6にvue, vuetifyを導入した。<br>
 
-・gitのissueを作り、commitを紐づけて管理
-https://qiita.com/yamken/items/a9db6b07142ca8bfd19e <br>
+・gitのissueを作り、commitを紐づけて管理<br>
 
 
 ## 途中のもの
@@ -35,4 +34,3 @@ https://qiita.com/yamken/items/a9db6b07142ca8bfd19e <br>
 [ローカルのgitブランチ名を変更する](https://qiita.com/kazumawada/items/c0086af55f5d9a4e3783)
 
 
-[ブログ](https://kaz08.blogspot.com/2020/11/50.html)
