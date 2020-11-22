@@ -6,7 +6,7 @@ permalink: /Categories/
 
 
 
- <h3>weeklyUpdateに関する記事</h3>
+ <h3>weeklyUpdate</h3>
 {% for post in site.categories.weeklyUpdate %}
 <ul>
 <li><a href="{{post.url}}">{{post.title}}</a></li>
