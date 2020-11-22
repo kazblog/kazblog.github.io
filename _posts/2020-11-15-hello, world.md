@@ -6,7 +6,7 @@ categories: weeklyUpdate
 permalink: /process-of-my-first-project
 excerpt_separator: <!--more-->
 ---
-![image here](/assets/img/one.jpeg)
+![image here](/assets/img/thumbnail/one.jpeg)
 
 <!--more-->
 <br><br>
