@@ -3,7 +3,7 @@ layout: post
 title:  "Weekly Update, November 15th"
 date:   2020-11-15 12:39:36 +0900
 categories: weeklyUpdate
-permalink: /process-of-my-first-project
+permalink: /weekly-Update-november-15th
 excerpt_separator: <!--more-->
 ---
 ![image here](/assets/img/thumbnail/one.jpeg)
