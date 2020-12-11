@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 ---
 ![image here](/assets/img/thumbnail/one.jpeg)
 
-<!--more-->
+
 <br><br>
 
 
