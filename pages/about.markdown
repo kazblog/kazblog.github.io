@@ -20,13 +20,12 @@ You can find the source code for Jekyll at GitHub:
  -->
  <br>
 
-・[このブログ](https://kazumawada.github.io/)←一週間の活動報告<br>
+<!-- ・[このブログ](https://kazumawada.github.io/)←一週間の活動報告<br> -->
  
 ・[Github](https://github.com/kazumawada/)<br>
 
 ・[Qiita](https://qiita.com/kazumawada)<br>
 
-・[Twitter](https://twitter.com/kaz0834)←一日の活動報告<br>
 
 
 
