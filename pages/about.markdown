@@ -26,7 +26,7 @@ You can find the source code for Jekyll at GitHub:
 
 ・[Qiita](https://qiita.com/kazumawada)<br>
 
-
+・[zen](https://zenn.dev/kazumawada)
 
 
 
