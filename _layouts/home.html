@@ -29,7 +29,9 @@ layout: default
         <!-- <div class="col-md-10 offset-md-1"> -->
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
+      <!-- weeklyUpdateの記事のみをhomeに表示したかった(cheetseetをhomeに表示したくなかった)から、endforに変えた。元に戻したかったら、下のコメントアウトを外し、その下をコメントアウト -->
+      <!-- {%- for post in posts -%} -->
+      {% for post in site.categories.weeklyUpdate %}
       <li>
         <!-- <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}"> -->
         <a class="post-link" href="{{ post.url | relative_url }}">
@@ -43,7 +45,9 @@ layout: default
        </a>
        <br><br><br><br><br>
       </li> 
-      {%- endfor -%}
+      <!-- weeklyUpdateの記事のみをhomeに表示したかったから、endforに変えた。元に戻したかったら、下のコメントアウトを外し、その下をコメントアウト -->
+      <!-- {%- endfor -%} -->
+      {% endfor %}
     </ul>
 
 <!-- </div> -->
