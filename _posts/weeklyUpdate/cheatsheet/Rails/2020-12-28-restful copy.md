@@ -19,3 +19,6 @@ https://railstutorial.jp/chapters/following_users?version=6.0#fig-user_has_many_
 
 ##userとpostの関係メソッドチェーン。
 https://railstutorial.jp/chapters/user_microposts?version=6.0#table-association_methods
+
+## followingとrelationshipとuser
+https://railstutorial.jp/chapters/following_users?version=6.0#table-association_methods_relationships
