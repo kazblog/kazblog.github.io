@@ -22,3 +22,7 @@ https://railstutorial.jp/chapters/user_microposts?version=6.0#table-association_
 
 ## followingとrelationshipとuserのメソッドチェーン
 https://railstutorial.jp/chapters/following_users?version=6.0#table-association_methods_relationships
+
+
+## memberメソッドを使ったfollowingのメソッドチェーン
+https://railstutorial.jp/chapters/following_users?version=6.0#table-following_routes
