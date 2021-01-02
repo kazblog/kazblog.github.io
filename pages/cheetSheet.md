@@ -3,7 +3,7 @@ layout: page
 title: CheatSheet 
 permalink: /CheatSheet/
 ---
-タイトルはわかりやすく簡単な言葉で。すぐ探せるように。
+同じことを繰り返さない。
 
 
 <h3>Rails</h3>
