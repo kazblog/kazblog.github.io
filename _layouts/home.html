@@ -30,8 +30,7 @@ layout: default
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <!-- weeklyUpdateの記事のみをhomeに表示したかった(cheetseetをhomeに表示したくなかった)から、endforに変えた。元に戻したかったら、下のコメントアウトを外し、その下をコメントアウト -->
-      <!-- {%- for post in posts -%} -->
-      {% for post in site.categories.weeklyUpdate %}
+      {%- for post in posts -%}
       <li>
         <!-- <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}"> -->
         <a class="post-link" href="{{ post.url | relative_url }}">
@@ -46,8 +45,7 @@ layout: default
        <br><br><br><br><br>
       </li> 
       <!-- weeklyUpdateの記事のみをhomeに表示したかったから、endforに変えた。元に戻したかったら、下のコメントアウトを外し、その下をコメントアウト -->
-      <!-- {%- endfor -%} -->
-      {% endfor %}
+      {%- endfor -%}
     </ul>
 
 <!-- </div> -->

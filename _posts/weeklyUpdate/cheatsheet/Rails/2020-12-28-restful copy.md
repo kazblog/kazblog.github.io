@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "Railsチュートリアル"
+title:  "Railsチートシート"
 date:   2020-12-28 12:39:36 +0900
 categories: rails-cheatsheet
-permalink: /rails-tutorial
+permalink: /rails-cheatsheet01
 excerpt_separator: <!--more-->
 ---
-
+![image here](/assets/img/thumbnail/nine.jpeg)
+<!--more-->
 
 ### restful
 https://railstutorial.jp/chapters/sign_up?version=6.0#table-RESTful_users <br>
