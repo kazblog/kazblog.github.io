@@ -7,7 +7,11 @@ permalink: /rails-error
 excerpt_separator: <!--more-->
 ---
 ![image here](/assets/img/thumbnail/eight.jpeg)
+<!-- <div style="text-align: center;">
+<img src="/assets/img/thumbnail/eight.jpeg" width="550px" height="400px">
+</div> -->
 <!--more-->
+
 ### Webpacker::Manifest::MissingEntryError in Test#home
 
 ```

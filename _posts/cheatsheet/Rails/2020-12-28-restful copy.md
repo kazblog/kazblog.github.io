@@ -7,6 +7,9 @@ permalink: /rails-cheatsheet01
 excerpt_separator: <!--more-->
 ---
 ![image here](/assets/img/thumbnail/nine.jpeg)
+<!-- <div style="text-align: center;">
+<img src="/assets/img/thumbnail/nine.jpeg" width="550px" height="400px">
+</div> -->
 <!--more-->
 
 ### restful

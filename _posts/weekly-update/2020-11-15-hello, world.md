@@ -7,12 +7,15 @@ permalink: /weekly-Update-november-15th
 excerpt_separator: <!--more-->
 ---
 ![image here](/assets/img/thumbnail/one.jpeg)
+<!-- <div style="text-align: center;">
+<img src="/assets/img/thumbnail/one.jpeg" width="550px" height="400px">
+</div> -->
 <!--more-->
 
 <br><br>
 
 
-## 今週やったこと、学んだこと。
+## 今週やったこと、学んだこと。(主にポートフォリオ作成)
 
 ・ポートフォリオの設計図を書いた。<br>
 
