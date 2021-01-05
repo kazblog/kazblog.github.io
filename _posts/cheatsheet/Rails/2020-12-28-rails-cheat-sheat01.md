@@ -40,11 +40,11 @@ $ rails db:seed
 ```
 
 
-## Bootstrapを使ったtabの切り替え(キーワード: tab-pane)
+## Bootstrapを使ったtabの切り替え(tab-pane)
 
 ```
 <main class="p-3">
-  <!-- 4個分のタブ -->
+  <!-- 3個分のタブ -->
   <ul class="nav nav-tabs">
     <li class="nav-item">
       <a href="#photo1" class="nav-link active" data-toggle="tab">タブ１</a>
@@ -55,25 +55,74 @@ $ rails db:seed
     <li class="nav-item">
       <a href="#photo3" class="nav-link" data-toggle="tab">タブ3</a>
     </li>
-    <li class="nav-item">
-      <a href="#photo4" class="nav-link" data-toggle="tab">タブ4</a>
-    </li>
   </ul>
 
-  <!-- 写真部分 -->
+
+  <%############################tab############################# %>
+  <%######################投稿カード#################### %>
+   
+ <%# <div class="col mt-4"> %>
+
+<!-- 写真部分 -->
   <div class="tab-content">
     <div id="photo1" class="tab-pane active">
-      <img src="images/photo1.jpg" class="img-fluid" alt=""/>
+   <%# ここから1 %>
+   <div class="card mt-4">
+      <%= image_tag 'the-main.jpg', class: "img-fluid" %>
+      <div class="card-body">
+        <h5 class="card-title">新着投稿</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+
+    <div class="card mt-4">
+      <%= image_tag 'the-main.jpg', class: "img-fluid" %>
+      <div class="card-body">
+        <h5 class="card-title">新着投稿2</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+   <%# ここまで1 %>
     </div>
     <div id="photo2" class="tab-pane">
-      <img src="images/photo2.jpg" class="img-fluid" alt=""/>
+    <%# ここから2 %>
+    <div class="card mt-4">
+      <%= image_tag 'the-main.jpg', class: "img-fluid" %>
+      <div class="card-body">
+        <h5 class="card-title">人気投稿</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+
+    <div class="card mt-4">
+      <%= image_tag 'the-main.jpg', class: "img-fluid" %>
+      <div class="card-body">
+        <h5 class="card-title">人気投稿2</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+    <%# ここまで2 %>
     </div>
     <div id="photo3" class="tab-pane">
-      <img src="images/photo3.jpg" class="img-fluid" alt=""/>
+    <%# ここから3 %>
+    <div class="card mt-4">
+      <%= image_tag 'the-main.jpg', class: "img-fluid" %>
+      <div class="card-body">
+        <h5 class="card-title">ニュース</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
     </div>
-    <div id="photo4" class="tab-pane">
-      <img src="images/photo4.jpg" class="img-fluid" alt=""/>
+
+    <div class="card mt-4">
+      <%= image_tag 'the-main.jpg', class: "img-fluid" %>
+      <div class="card-body">
+        <h5 class="card-title">ニュース2</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+    <%# ここまで3 %>
     </div>
   </div>
 </main>
+
 ```
