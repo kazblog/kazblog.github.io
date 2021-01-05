@@ -30,3 +30,11 @@ https://railstutorial.jp/chapters/following_users?version=6.0#table-association_
 
 ## memberメソッドを使ったfollowingのメソッドチェーン
 https://railstutorial.jp/chapters/following_users?version=6.0#table-following_routes
+
+
+## railsのDBリセット&再構築
+
+```
+$ rails db:migrate:reset
+$ rails db:seed
+```
