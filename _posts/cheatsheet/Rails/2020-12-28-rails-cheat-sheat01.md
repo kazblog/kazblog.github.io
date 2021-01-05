@@ -40,7 +40,7 @@ $ rails db:seed
 ```
 
 
-## Bootstrapを使ったtabの切り替え
+## Bootstrapを使ったtabの切り替え(キーワード: tab-pane)
 
 ```
 <main class="p-3">
