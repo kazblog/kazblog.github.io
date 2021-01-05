@@ -47,26 +47,22 @@ $ rails db:seed
   <!-- 3個分のタブ -->
   <ul class="nav nav-tabs">
     <li class="nav-item">
-      <a href="#photo1" class="nav-link active" data-toggle="tab">タブ１</a>
+      <a href="#new" class="nav-link active" data-toggle="tab">新着</a>
     </li>
     <li class="nav-item">
-      <a href="#photo2" class="nav-link" data-toggle="tab">タブ2</a>
+      <a href="#popular" class="nav-link" data-toggle="tab">人気</a>
     </li>
     <li class="nav-item">
-      <a href="#photo3" class="nav-link" data-toggle="tab">タブ3</a>
+      <a href="#news" class="nav-link" data-toggle="tab">News</a>
     </li>
   </ul>
 
-
-  <%############################tab############################# %>
-  <%######################投稿カード#################### %>
-   
  <%# <div class="col mt-4"> %>
 
-<!-- 写真部分 -->
+<!-- 投稿部分 -->
   <div class="tab-content">
-    <div id="photo1" class="tab-pane active">
-   <%# ここから1 %>
+    <div id="new" class="tab-pane active">
+   <%# ここから新着 %>
    <div class="card mt-4">
       <%= image_tag 'the-main.jpg', class: "img-fluid" %>
       <div class="card-body">
@@ -82,10 +78,10 @@ $ rails db:seed
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       </div>
     </div>
-   <%# ここまで1 %>
+   <%# ここまで新着 %>
     </div>
-    <div id="photo2" class="tab-pane">
-    <%# ここから2 %>
+    <div id="popular" class="tab-pane">
+    <%# ここから人気 %>
     <div class="card mt-4">
       <%= image_tag 'the-main.jpg', class: "img-fluid" %>
       <div class="card-body">
@@ -101,10 +97,10 @@ $ rails db:seed
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       </div>
     </div>
-    <%# ここまで2 %>
+    <%# ここまで人気 %>
     </div>
-    <div id="photo3" class="tab-pane">
-    <%# ここから3 %>
+    <div id="news" class="tab-pane">
+    <%# ここからnews %>
     <div class="card mt-4">
       <%= image_tag 'the-main.jpg', class: "img-fluid" %>
       <div class="card-body">
@@ -120,7 +116,7 @@ $ rails db:seed
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       </div>
     </div>
-    <%# ここまで3 %>
+    <%# ここまでnews %>
     </div>
   </div>
 </main>
