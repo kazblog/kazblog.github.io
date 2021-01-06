@@ -39,6 +39,13 @@ $ rails db:migrate:reset
 $ rails db:seed
 ```
 
+## テーブルに新しい項目を追加したい時
+今回は、Usersテーブルにtinyint型のyearを追加する。
+
+```
+$ rails g migration AddYearToUsers year:tinyint
+```
+
 
 ## Bootstrapを使ったtabの切り替え(tab-pane)
 
