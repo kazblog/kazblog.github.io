@@ -46,6 +46,12 @@ $ rails db:seed
 $ rails g migration AddYearToUsers year:tinyint
 ```
 
+その逆。カラム削除
+
+```
+rails g migration RemoveYearFromUsers year:tinyint 
+```
+
 
 ## Bootstrapを使ったtabの切り替え(tab-pane)
 
