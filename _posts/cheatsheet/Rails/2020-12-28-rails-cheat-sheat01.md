@@ -135,3 +135,38 @@ rails g migration RemoveYearFromUsers year:tinyint
 </main>
 
 ```
+
+## どうcontrollerに定義していいかわからない時の解決法
+
+ # 追加
+    def open
+        binding.pry
+    end
+
+    private
+
+    # paramsから欲しいデータのみ抽出
+    def post_params
+        params.require(:post).permit(:name, :title, :content)
+    end
+end
+# サービス確認
+$ docker ps     
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                               NAMES
+59b9c55d27f6        posts_webserver     "bundle exec rails s…"   32 minutes ago      Up 14 minutes       0.0.0.0:3000->3000/tcp              posts_webserver_1
+054877397d5e        jenkins:2.60.3      "/bin/tini -- /usr/l…"   4 days ago          Up 14 minutes       0.0.0.0:8080->8080/tcp, 50000/tcp   posts_jenkins_1
+c6088fba0e5e        mysql:5.7           "docker-entrypoint.s…"   4 days ago          Up 14 minutes       3306/tcp                            posts_db_1
+
+# デバッグモード
+$ docker attach posts_webserver_1
+
+# web上で、http://localhost:3000/posts/1 にアクセス
+From: /app/app/controllers/posts_controller.rb @ line 22 PostsController#open:
+
+    20: def open
+    21:     binding.pry
+ => 22: end
+
+[1] pry(#<PostsController>)> params[:id]
+=> "1"
+Controller の open メソッドに binding.pry を仕込み、デバッ
