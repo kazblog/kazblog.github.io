@@ -174,16 +174,6 @@ Controller の open メソッドに binding.pry を仕込み、デバッ
   
   ## link_toの囲い方
   
-  link_toメソッド
-結論から言うと、カッコつき link_to の後ろに do をつけて、 閉じ end で、ブロックを囲める。
-
-<%= link_to(item_path(item), class: 'list-content') do %>
-  <div class="content">
-    <div class="inner-left">
-      ...
-    </div>
-    <div class="inner-right">
-      ...
-    </div>
-  </div>
+<%= link_to root_path do %>
+(html要素)
 <% end %>
