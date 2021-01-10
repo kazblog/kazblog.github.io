@@ -21,6 +21,7 @@ http://jekyllrb-ja.github.io/docs/variables/
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
+      p 固定記事 /p
         <h1 class="text-center">
         <a href="http://localhost:4000/docker-cheatsheet">ポートフォリオ作成までの全過程</a>
         </h1>
