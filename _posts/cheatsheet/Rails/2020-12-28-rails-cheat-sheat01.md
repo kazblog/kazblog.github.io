@@ -185,13 +185,7 @@ Controller の open メソッドに binding.pry を仕込み、デバッ
 
 ```
  <% @posts.each do |p| %>
-   <div class="card mt-4">
-      <%= image_tag p.image.url, class: 'img-fluid' %>
-      <div class="card-body">
-        <h5 class="card-title"><%= p.title %></h5>
-        <p class="card-text"><%= p.tag %></p>
-      </div>
-    </div>
-    <% end %> 
+ 
+ <% end %> 
 ```
 
