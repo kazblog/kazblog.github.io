@@ -192,3 +192,9 @@ Controller の open メソッドに binding.pry を仕込み、デバッ
 ## gitについて。
 前に同じブランチを使ってpushした場合、2回目はpullりくされないで、自動的にissueに追加される。mainには影響なし。
 
+
+## migrateionされた一覧が見れる
+
+```
+rails db:migrate:status
+```
