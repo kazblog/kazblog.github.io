@@ -7,11 +7,43 @@
 
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+  <main class="page-content" aria-label="Content">
+  <div class="container">
+    <div class="row">
+
+<!-- ###################左グリッド############################# -->
+  <div class="col-md-9">
+　<!---------- 固定記事 ----------------->
+      <div class="wrapper"><!-- これが無いと横にいっぱい伸びる -->  
+      　<div class="text-center">
+          　<span class="post-meta">{{ post.tags.portfolio-log | date: date_format }}</span> 
+        </div>
+      </div>   
+  <!---------- 固定記事 ----------------->
+  <!---------- 投稿記事 ----------------->
+      <div class="wrapper"><!-- これが無いと横にいっぱい伸びる -->
         {{ content }}
       </div>
-    </main>
+  <!---------- 投稿記事 ----------------->
+  </div><!-- col-md-9 -->
+<!-- ###################左グリッド############################# -->
+
+
+<!-- ###################右グリッド############################# -->
+  <div class="col-md-3"> 
+    <ul class="list-group list-group-flush mt-4">
+      <li class="list-group-item">Cras justo odio</li>
+      <li class="list-group-item">Dapibus ac facilisis in</li>
+      <li class="list-group-item">Morbi leo risus</li>
+      <li class="list-group-item">Porta ac consectetur ac</li>
+      <li class="list-group-item">Vestibulum at eros</li>
+    </ul>
+  </div> <!-- col-md-3 -->
+<!-- ###################右グリッド############################# -->
+
+  </div><!-- row -->
+  </div><!-- container -->
+  </main>
 
     <!-- {%- include footer.html -%} -->
 
