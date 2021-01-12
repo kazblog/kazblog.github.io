@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<!-- <p>home.htmlのなかにグリッドを書く必要がある。</p>　 -->
+
 <div class="home">
   {%- if page.title -%}
   <h1 class="page-heading">{{ page.title }}</h1>
@@ -23,11 +25,14 @@ layout: default
   {%- endif -%}
 
 <br>
- <div class="container">
-   <div class="row">
+ <!-- <div class="container">
+   <div class="row"> -->
      <!-- <div class="col-md-8 offset-md-2"> -->
       <!-- <div class="col-md-10 offset-md-1"> -->
   
+
+      
+
         <ul class="post-list">
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
           <!-- weeklyUpdateの記事のみをhomeに表示したかった(cheetseetをhomeに表示したくなかった)から、endforに変えた。元に戻したかったら、下のコメントアウトを外し、その下をコメントアウト -->
@@ -53,7 +58,7 @@ layout: default
         </ul>
     
     <!-- </div> -->
-    </div></div>
+    <!-- </div></div> -->
     
     
     
