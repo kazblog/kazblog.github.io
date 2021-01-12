@@ -9,27 +9,21 @@ liの丸ぽちいらない。
 http://jekyllrb-ja.github.io/docs/variables/
 
 
-固定ページはこうやって作れる。
 
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+branch01でやる事
 
-  {%- include head.html -%}
+aboutにportfolio,草 done
+rspecチートシート done
+カテゴリーの文字の前に、tagマークをつける。done
+liの黒点入らない=liはいらない。done
+学習ログを固定にすることはできないっぽいから、headerに書くことにする。
 
-  <body>
+<!---------- 固定記事 ----------------->
+      <div class="wrapper"><!-- これが無いと横にいっぱい伸びる -->  
+      　<div class="text-center">
+          　<span class="post-meta">{{ post.tags.portfolio-log | date: date_format }}</span> 
+        </div>
+      </div>   
+  <!---------- 固定記事 ----------------->
 
-    {%- include header.html -%}
-
-
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-      p 固定記事 /p
-        <h1 class="text-center">
-        <a href="http://localhost:4000/docker-cheatsheet">ポートフォリオ作成までの全過程</a>
-        </h1>
-
-        {{ content }}
-       
-      </div>
-    </main>
+  aboutのリストマーク done

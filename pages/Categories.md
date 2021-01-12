@@ -6,47 +6,56 @@ permalink: /categories/
 
 
 
- <h3>weeklyUpdate</h3>
+ <h3><i class="fas fa-tag"></i> Weekly Update</h3>
 {% for post in site.categories.weeklyUpdate %}
-<ul>
+<!-- <ul>
 <li><a href="{{post.url}}">{{post.title}}</a></li>
-</ul>
+</ul> -->
+<a href="{{post.url}}">{{post.title}}</a>
 {% endfor %}
 <br>
 <br>
 
-<h3>Rails</h3>
-{% for post in site.categories.rails-cheatsheet %}
-<ul>
-<li><a href="{{post.url}}">{{post.title}}</a></li>
-</ul>
+<h3><i class="fas fa-tag"></i> Rails</h3>
+{% for post in site.tags.rails %}
+<a href="{{post.url}}">{{post.title}}</a>
 {% endfor %}
 <br>
 <br>
-<h3>Docker</h3>
-{% for post in site.categories.docker-cheatsheet %}
-<ul>
-<li><a href="{{post.url}}">{{post.title}}</a></li>
-</ul>
+
+<h3><i class="fas fa-tag"></i> RSpec</h3>
+{% for post in site.tags.rspec %}
+<a href="{{post.url}}">{{post.title}}</a>
 {% endfor %}
 <br>
 <br>
-<h3>Vue</h3>
+
+<h3><i class="fas fa-tag"></i> Docker</h3>
+{% for post in site.tags.docker %}
+<a href="{{post.url}}">{{post.title}}</a>
+{% endfor %}
+<br>
+<br>
+
+
+
+
+<!-- <h3>Vue</h3>
 {% for post in site.categories.vue-cheatsheet %}
 <ul>
 <li><a href="{{post.url}}">{{post.title}}</a></li>
 </ul>
 {% endfor %}
 <br>
-<br>
-<h3>Other</h3>
+<br> -->
+<!-- <h3>Other</h3>
 {% for post in site.categories.other-cheatsheet %}
 <ul>
 <li><a href="{{post.url}}">{{post.title}}</a></li>
 </ul>
 {% endfor %}
 <br>
-<br>
+<br> -->
 
 
 <!-- <h3>チートシート</h3>
