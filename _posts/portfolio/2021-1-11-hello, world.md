@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ポートフォリオ完成までにやった事すべて"
+title:  "ポートフォリオ完成までの学習ログ"
 tags: portfolio-log
 categories: portfolio-log
 permalink: /everything-i-did
