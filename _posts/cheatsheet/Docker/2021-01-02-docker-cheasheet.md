@@ -25,5 +25,15 @@ $ docker rm $(docker ps -aq)
 $ docker rmi $(docker images -q)
 ```
 
+<br><br>
+
+## bundle installしたら
+
+'''bash
+docker-compose build --no-cache
+'''
+
+
+
 
 
