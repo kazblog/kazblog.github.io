@@ -53,6 +53,14 @@ $ rails g migration AddYearToUsers year:tinyint
 rails g migration RemoveYearFromUsers year:tinyint 
 ```
 
+## must be exist系のエラー(@saveが実行されない)
+
+optional: trueを追加する。rails5からは、デフォルトでテーブル同士で紐づいている場合、どちらかが存在していないと、DBに格納されなくなる。今回はpostとcommentを紐づけて、送信はcommentだけだったので。
+
+```
+belongs_to :post, optional: true
+```
+
 
 ## Bootstrapを使ったtabの切り替え(tab-pane)
 
