@@ -207,3 +207,13 @@ Controller の open メソッドに binding.pry を仕込み、デバッ
 ```
 rails db:migrate:status
 ```
+
+
+## couldn't find file 'trix/dist/trix' with type 'text/css'
+
+```bash
+yarn install --check-files
+
+で、もう一度overwriteする。
+rails action_text:install
+```
