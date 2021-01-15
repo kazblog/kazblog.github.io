@@ -209,7 +209,7 @@ rails db:migrate:status
 ```
 
 
-## couldn't find file 'trix/dist/trix' with type 'text/css'
+## couldn't find file 'trix/dist/trix' with type 'text/css' action_textを再インストールするという事。
 
 ```bash
 yarn install --check-files
