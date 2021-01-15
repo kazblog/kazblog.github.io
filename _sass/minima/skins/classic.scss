@@ -19,7 +19,7 @@ $link-color:            #383838;
 $link-base-color:       #2a7ae2 !default;
 $link-visited-color:    #383838 !default;
 $link-hover-color:      $manablog-font-color !default;
-$link-note-color:      #2cb696;
+$link-note-color:      #22aadd;
 
 $border-color-01:       $brand-color-light !default;
 $border-color-02:       lighten($brand-color, 35%) !default;
@@ -36,7 +36,7 @@ $table-border-color:    $border-color-01 !default;
 // ----------------------------------------------------------------------------
 
 .highlight {
-  .n     { color: #2cb696} //$link-note-color:      #2cb696;
+  .n     { color: #22aadd} //$link-note-color:      #2cb696;
   .c     { color: #998; font-style: italic } // Comment
   .err   { color: #a61717; background-color: #e3d2d2 } // Error
   .k     { font-weight: bold } // Keyword
