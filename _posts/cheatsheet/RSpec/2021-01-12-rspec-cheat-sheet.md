@@ -18,3 +18,7 @@ tags: rspec
 '''
 rails db:test:prepare
 '''
+
+チートシート
+rspecのメソッドをmodule化するファイルを作成する方法
+https://breakthrough-tech.yuta-u.com/rspec/how-to-make-spec-support/
