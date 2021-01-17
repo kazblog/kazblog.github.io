@@ -1,4 +1,4 @@
-DB内に入る、テーブル見る、DBみるのコマンド
+DB内に入る、テーブル見る、DBみる、テーブルを消すのコマンド
 
 ```
 # mysql -u root -p
@@ -51,7 +51,9 @@ mysql> show tables;
 +--------------------------------+
 11 rows in set (0.01 sec)
 
-mysql> 
+mysql> drop table likes;
+Query OK, 0 rows affected (0.10 sec)
+
 
 
 ```
