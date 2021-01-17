@@ -12,6 +12,9 @@ excerpt_separator: <!--more-->
 <img src="/assets/img/thumbnail/ten.jpeg" width="550px" height="400px">
 </div> -->
 <!--more-->
+
+わかりやすそう。aws,circleci puma nginxとかやるときに見て見る。
+https://yumanoblog.com/docker/
  
 
 <br><br>
