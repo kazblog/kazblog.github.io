@@ -28,6 +28,29 @@ mysql> show databases;
 +--------------------+
 6 rows in set (0.13 sec)
 
+mysql> use myapp_development
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> show tables;
++--------------------------------+
+| Tables_in_myapp_development    |
++--------------------------------+
+| action_text_rich_texts         |
+| active_storage_attachments     |
+| active_storage_blobs           |
+| active_storage_variant_records |
+| ar_internal_metadata           |
+| comments                       |
+| likes                          |
+| posts                          |
+| relationships                  |
+| schema_migrations              |
+| users                          |
++--------------------------------+
+11 rows in set (0.01 sec)
+
 mysql> 
 
 
