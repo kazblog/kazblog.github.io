@@ -6,15 +6,6 @@ permalink: /categories/
 
 
 
- <h3><i class="fas fa-tag"></i> Weekly Update</h3>
-{% for post in site.categories.weeklyUpdate %}
-<!-- <ul>
-<li><a href="{{post.url}}">{{post.title}}</a></li>
-</ul> -->
-<a href="{{post.url}}">{{post.title}}</a>
-{% endfor %}
-<br>
-<br>
 
 <h3><i class="fas fa-tag"></i> Rails</h3>
 {% for post in site.tags.rails %}
@@ -39,15 +30,15 @@ permalink: /categories/
 
 
 
-
-<!-- <h3>Vue</h3>
-{% for post in site.categories.vue-cheatsheet %}
+<h3>ブックマーク</h3>
+{% for post in site.categories.cheatsheet %}
 <ul>
 <li><a href="{{post.url}}">{{post.title}}</a></li>
 </ul>
 {% endfor %}
 <br>
-<br> -->
+<br> 
+
 <!-- <h3>Other</h3>
 {% for post in site.categories.other-cheatsheet %}
 <ul>

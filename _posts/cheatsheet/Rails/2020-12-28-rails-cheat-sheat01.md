@@ -5,7 +5,6 @@ date:   2020-12-28 12:39:36 +0900
 categories: cheatsheet
 permalink: /rails-cheatsheet01
 excerpt_separator: <!--more-->
-tags: rails
 ---
 ![image here](/assets/img/thumbnail/nine.jpeg)
 <!-- <div style="text-align: center;">

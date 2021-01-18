@@ -1,3 +1,15 @@
+---
+layout: post
+title:  "MySQLのチートシート"
+date:   2021-01-02 12:39:36 +0900
+categories: cheatsheet
+tags: mysql
+permalink: /mysql-cheatsheet
+excerpt_separator: <!--more-->
+---
+
+<!--more-->
+
 DB内に入る、テーブル見る、DBみる、テーブルを消すのコマンド
 
 ```
