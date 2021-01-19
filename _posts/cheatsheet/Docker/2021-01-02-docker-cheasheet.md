@@ -36,6 +36,13 @@ docker-compose build --no-cache
 ```
 
 
+## デバック
+
+```
+docker attach myapp_web_1
+```
+
+
 
 
 
