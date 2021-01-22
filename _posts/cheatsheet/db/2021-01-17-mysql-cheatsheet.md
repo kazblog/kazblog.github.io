@@ -69,3 +69,15 @@ Query OK, 0 rows affected (0.10 sec)
 
 
 ```
+
+
+## DBをdropしたい時のコマンど(rails5以降有効)
+
+```
+RAILS_ENV=development DISABLE_DATABASE_ENVIRONMENT_CHECK=1 bundle exec rake db:drop
+```
+developmentの箇所は、他にも  
+default,
+development,
+test,
+productionなどのチョイスがある。
