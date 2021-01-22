@@ -81,3 +81,13 @@ default,
 development,
 test,
 productionなどのチョイスがある。
+
+↓<br>
+
+```
+rails db:create RAILS_ENV=development
+```
+
+```
+rails db:migrate RAILS_ENV=development
+```
