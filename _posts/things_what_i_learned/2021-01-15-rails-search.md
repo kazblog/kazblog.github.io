@@ -16,13 +16,6 @@ searchを実装する時に使用するコードを理解してみる。
 ```ruby
 
 def self.search(search)
-      return Post.all unless search
-      Post.where(['content LIKE ?', "%#{search}%"])
-end
-
-
-上と同じのを簡略化したコード
-def self.search(search)
       if search
         Post.where(['content LIKE ?', "%#{search}%"])
       else
@@ -34,7 +27,7 @@ end
 
 ・controller
 
-```
+```ruby
  def search
    @posts = Post.search(params[:search])
  end
@@ -52,9 +45,10 @@ end
 
 
  <% @posts.each do |p| %>
-
-     
-    <% end %>
+ 
+　　省略   
+　　
+  <% end %>
 ```
 
 上のコードを理解していく。
