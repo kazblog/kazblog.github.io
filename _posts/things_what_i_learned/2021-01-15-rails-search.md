@@ -14,13 +14,14 @@ searchを実装する時に使用するコードを理解してみる。
 ・post.rb
 
 ```ruby
+
 def self.search(search)
       return Post.all unless search
       Post.where(['content LIKE ?', "%#{search}%"])
 end
 
-=
 
+上と同じのを簡略化したコード
 def self.search(search)
       if search
         Post.where(['content LIKE ?', "%#{search}%"])
@@ -29,6 +30,14 @@ def self.search(search)
       end
 end
 
+```
+
+・controller
+
+```
+ def search
+   @posts = Post.search(params[:search])
+ end
 ```
 
 ・view
@@ -40,16 +49,12 @@ end
   <%= submit_tag 'Search', :name => nil %>
 <% end %>
 
-<ul><% @posts.each do |post| %>
-  <li>
-    <%= link_to post.title, post %>
-    <%= post.created_at %>
-    <%= post.status %>
-  </li>
-  <%= link_to "編集",edit_post_path(post) %>
-  <%= link_to "削除",post, method: :delete %>
-  <% end %>
-</ul>
+
+
+ <% @posts.each do |p| %>
+
+     
+    <% end %>
 ```
 
 上のコードを理解していく。
