@@ -28,6 +28,13 @@ permalink: /categories/
 <br>
 <br>
 
+<h3><i class="fas fa-tag"></i> プログラミング全般</h3>
+{% for post in site.tags.computer %}
+<a href="{{post.url}}">{{post.title}}</a>
+{% endfor %}
+<br>
+<br>
+
 
 
 <h3>ブックマーク</h3>
