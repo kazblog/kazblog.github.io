@@ -25,9 +25,9 @@ rails db:migrate:reset
 
 <br>
 
-'''
+```
 rails db:test:prepare
-'''
+```
 
 チートシート
 rspecのメソッドをmodule化するファイルを作成する方法
