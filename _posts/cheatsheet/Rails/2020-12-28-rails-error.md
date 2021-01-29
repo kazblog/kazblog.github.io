@@ -34,3 +34,13 @@ docker-compose dowm, up
 [参考](https://fuqda.hatenablog.com/entry/2019/03/21/204118)
 
 <hr>
+
+## bundle installして、docker-composeしたら、bootsnapのこんなエラー。Errno::ENOENT - No such file or directory - bs_fetch:atomic_write_cache_file:rename 
+
+キャッシュが残っているのが原因っぽい。だから、それを消したらok
+
+```
+ docker-compose down
+ rm -rf tmp/cache/bootsnap-*
+ docker-compose up -d worker
+```
