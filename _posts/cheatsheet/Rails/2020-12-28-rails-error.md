@@ -42,5 +42,5 @@ docker-compose dowm, up
 ```
  docker-compose down
  rm -rf tmp/cache/bootsnap-*
- docker-compose up -d worker
+ docker-compose up -d 
 ```
