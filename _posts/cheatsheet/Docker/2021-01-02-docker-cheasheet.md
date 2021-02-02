@@ -46,7 +46,7 @@ docker attach myapp_web_1
 gistテスト
 <script src="https://gist.github.com/kazumawada/1958832dbd311df8e7494180afbaf2be.js"></script>
 
-https://gist.github.com/kazumawada/1958832dbd311df8e7494180afbaf2be
+
 
 
 
