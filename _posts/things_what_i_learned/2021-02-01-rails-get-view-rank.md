@@ -21,20 +21,20 @@ gem kaminariをインストールしている
 
 post.rb
 
-```ruby
+```
 is_impressionable counter_cache: true
 ```
 
 controller
 
-```ruby
+```
 posts_get_views = Post.order(impressions_count: 'DESC')
 @posts_get_views = Kaminari.paginate_array(posts_get_views).page(params[:page]).per(4)
 ```
 
 rails c で　Post.order(impressions_count: 'DESC')
 
-```ruby
+```
 [10] pry(main)> Post.order(impressions_count: 'DESC')
 =>   Post Load (3.9ms)  SELECT `posts`.* FROM `posts` ORDER BY `posts`.`impressions_count` DESC
 [#<Post:0x00005621c1a62960
@@ -58,7 +58,7 @@ rails c で　Post.order(impressions_count: 'DESC')
 
 view
 
-```ruby
+```
 <% @posts_get_views.each do |post_get_views| %>
  <%= post_get_views.title %>
 <% end %>
