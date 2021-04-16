@@ -77,6 +77,63 @@ mysql> select * from users;
 
 
 
+テーブル一つ ＝ 一つのデータベース
+mysql> create database user;
+Query OK, 1 row affected (0.03 sec)
+
+使うデータベースを設定
+mysql> use user
+Database changed
+
+
+テーブルを作成し、その中に列も追加する。
+mysql> create table user (
+    -> id int);
+Query OK, 0 rows affected (0.13 sec)
+
+mysql> show tables;
++----------------+
+| Tables_in_user |
++----------------+
+| user           |
++----------------+
+1 row in set (0.01 sec)
+
+選択したデータベースの中身を見る
+mysql> desc user;
++-------+------+------+-----+---------+-------+
+| Field | Type | Null | Key | Default | Extra |
++-------+------+------+-----+---------+-------+
+| id    | int  | YES  |     | NULL    |       |
++-------+------+------+-----+---------+-------+
+1 row in set (0.03 sec)
+
+テーブルの列を追加する。
+
+mysql> desc user;
++-------+------+------+-----+---------+-------+
+| Field | Type | Null | Key | Default | Extra |
++-------+------+------+-----+---------+-------+
+| id    | int  | YES  |     | NULL    |       |
++-------+------+------+-----+---------+-------+
+1 row in set (0.01 sec)
+
+mysql> alter table user
+    -> add name text;
+Query OK, 0 rows affected (0.14 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> desc user;
++-------+------+------+-----+---------+-------+
+| Field | Type | Null | Key | Default | Extra |
++-------+------+------+-----+---------+-------+
+| id    | int  | YES  |     | NULL    |       |
+| name  | text | YES  |     | NULL    |       |
++-------+------+------+-----+---------+-------+
+2 rows in set (0.01 sec
+
+
+
 ```
 
 
