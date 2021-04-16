@@ -1,3 +1,10 @@
+### moduleが無いよ系のエラー
+main.go:7:3: no required module provides package github.com/gin-gonic/gin: go.mod file not found in current directory or any parent directory; see 'go help modules'go: no module declaration in go.mod. To specify the module path:
+
+go mod edit -module=example.com/mod
+
+
+
 ```bash
 go mod init example.com/hoge/hello
 ```
