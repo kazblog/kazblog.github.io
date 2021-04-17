@@ -1,6 +1,10 @@
 ## チュートリアル系
+
+ドキュメント
 https://astaxie.gitbooks.io/build-web-application-with-golang/content/ja/
 
+素晴らしい。チュートリアル
+https://gihyo.jp/dev/feature/01/go_4beginners/
 
 ### moduleが無いよ系のエラー
 main.go:7:3: no required module provides package github.com/gin-gonic/gin: go.mod file not found in current directory or any parent directory; see 'go help modules'go: no module declaration in go.mod. To specify the module path:
