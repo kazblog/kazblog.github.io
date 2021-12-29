@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Hello, World"
-date:   2020-09-10 12:39:36 +0900
-categories: dev
-permalink: dev/hello-world/
+title:  "Hello, toronto"
+date:   2020-12-29 12:39:36 +0900
+categories: toronto
+permalink: toronto/hello-toronto/
 excerpt_separator: <!--more-->
 ---
 

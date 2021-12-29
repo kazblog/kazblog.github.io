@@ -18,55 +18,22 @@ You can find the source code for Jekyll at GitHub:
 [jekyll-organization]: https://github.com/jekyll
 
  -->
-
-<br> <br>
-
-<h3> 
-
-<a href="https://github.com/kazumawada/myapp" target="_blank" class="ml-3">
-  <i class="fas fa-circle"></i> ポートフォリオ「ベルリンなう」
-</a>
-
-</h3>
-
-
-
-
-
-
-<h3> 
-
-<a href="https://qiita.com/kazumawada" target="_blank" class="ml-3">
-  <i class="fas fa-circle"></i> Qiita
-</a>
-
-</h3>
-
-
-
+<p>工事中</p>
 
 <!-- <h3> 
-
-[このブログ](https://kaz34.github.io/)←一週間の活動報告とチートシート<br>
-
-</h3> -->
-
-
-
-<h3> 
 <a href="https://github.com/kazumawada" target="_blank" class="ml-3">
   <i class="fas fa-circle"></i> Github
 </a>
-</h3>
+</h3> -->
 
 
- <br> <br>
+ <!-- <br> <br>
 
 <!-- https://grass-graph.moshimo.works/ -->
-<a href="https://github.com/kazumawada" target="_blank">
+<!-- <a href="https://github.com/kazumawada" target="_blank">
   <img src="https://grass-graph.moshimo.works/images/kazumawada.png">
-</a>
-
+</a> -->
+ 
 
 
 

@@ -40,15 +40,15 @@ layout: default
           <li>
             <!-- <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}"> -->
             <a class="post-link" href="{{ post.url | relative_url }}">
-            <h1 class="text-center">
+            <h3 class="text-left">
                 {{ post.title | escape }}
-            </h1>
+            </h3>
             <!-- <span class="post-meta">{{ post.date | date: date_format }} |</span> 
             <span class="post-meta">{{ post.categories | date: date_format }}</span> -->
             <span class="post-meta-meta">{{ post.excerpt }}</span>
             
            </a>
-           <div class="text-right">
+           <div class="text-left">
            <span class="post-meta">{{ post.date | date: date_format }}</span> 
           </div>
            <br><br><br><br><br>
